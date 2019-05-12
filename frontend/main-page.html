@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание № 5</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="main-page.css">
+    <script defer src="vue.js"></script>
+    <script defer src="base.js"></script>
+    <script defer src="main-page.js"></script>
+</head>
+<body>
+    <div id="app" v-cloak>
+        <nav-bar main-page></nav-bar>
+        <h1>Красивые виды природы</h1>
+        <div class="centering-container">
+            <span class="welcome-text">Добро пожаловать!</span>
+        </div>
+        <img src="img1.jpg">
+        <img src="img2.jpg">
+        <div class="video-wrapper">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe
+                    class="embed-responsive-item"
+                    src="https://www.youtube.com/embed/5vIx-DoZihM"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                ></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

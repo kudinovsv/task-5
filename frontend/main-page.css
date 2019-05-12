@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+}
+
+.welcome-text {
+    font-size: 24px;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.centering-container {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    padding: 10px 10px 0;
+}
+
+.video-wrapper {
+    padding: 10px;
+}

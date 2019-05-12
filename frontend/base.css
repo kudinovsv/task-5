@@ -1,0 +1,75 @@
+[v-cloak] {
+    display: none;
+}
+
+.btn {
+    margin-left: 8px;
+}
+
+.btn:focus {
+    outline: none !important;
+}
+
+nav {
+    background-color: #f8f8f8;
+    border: 1px solid #e7e7e7;
+}
+
+nav ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+    float: left;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    padding: 15px;
+    display: block;
+    color: #777;
+}
+
+nav ul li a:focus {
+    outline: none;
+    color: #777;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+nav ul li a.nav-link-active {
+    pointer-events: none;
+    cursor: default;
+    background-color: #e7e7e7;
+    color: #555;
+}
+
+nav .auth {
+    float: right;
+    padding-top: 8px;
+    padding-right: 13px;
+}
+
+nav .login-label {
+    float: right;
+    margin-top: 7px;
+    margin-right: 4px;
+}
+
+nav .login {
+    color: green;
+}
+
+nav .btn {
+    float: right;
+}
+
+nav .btn.nav-link-active {
+    display: none;
+}

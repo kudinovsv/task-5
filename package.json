@@ -1,0 +1,33 @@
+{
+  "name": "task-5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "start": "node ./backend/app.js",
+    "dev": "nodemon --exec npm start",
+    "lint:back": "eslint -c .eslintrc-back.json backend",
+    "lint:front": "eslint -c .eslintrc-front.json frontend",
+    "lint": "npm run lint:back && npm run lint:front"
+  },
+  "author": "Sergey Kudinov",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.7.0",
+    "koa-better-serve": "^2.0.7",
+    "koa-bodyparser": "^4.2.1",
+    "koa-compose": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "pg": "^7.10.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^5.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "nodemon": "^1.19.0"
+  }
+}

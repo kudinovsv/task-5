@@ -1,0 +1,101 @@
+input.form-control {
+    display: inline-block;
+    width: 200px;
+    margin-left: 8px;
+}
+
+label {
+    width: 50px;
+    text-align: right;
+}
+
+div.spacer {
+    display: inline-block;
+    width: 50px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+form h1 {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 14px;
+}
+
+.centering-container {
+    text-align: center;
+    flex-grow: 1;
+    white-space: nowrap;
+}
+
+.centering-container:before {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    content: ' ';
+}
+
+.fields-block {
+    border: 1px solid #cccccc;
+    padding: 20px 20px 18px;
+    border-radius: 4px;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.user-list {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    min-height: 360px;
+}
+
+.user-list table {
+    width: 400px;
+}
+
+.user-list h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.user-list table {
+    margin-bottom: 15px;
+}
+
+.user-list thead {
+    color: #337ab7;
+}
+
+.user-list th:first-child {
+    width: 40px;
+    text-align: center;
+}
+
+.user-list td:first-child {
+    text-align: center;
+}
+
+.pagination {
+    margin: 0;
+}
+
+.pagination li {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.pagination a {
+    cursor: pointer;
+}
